@@ -1,0 +1,6 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"
+#include "Generated.xcconfig"
+
+// NobodyWho 6 ships only an arm64 iOS simulator slice. Keep this after
+// Generated.xcconfig, which otherwise overrides CocoaPods exclusions.
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = $(inherited) i386 x86_64

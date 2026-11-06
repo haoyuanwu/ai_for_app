@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - nobodywho (0.1.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - nobodywho (from `.symlinks/plugins/nobodywho/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  nobodywho:
+    :path: ".symlinks/plugins/nobodywho/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  nobodywho: 597ba4b9464b4d42ea71a9ea901d3344dbc566ba
+
+PODFILE CHECKSUM: 3ba3a73b1b12adcf321a227a745625fe0888cc82
+
+COCOAPODS: 1.16.2
